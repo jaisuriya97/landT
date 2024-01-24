@@ -12,7 +12,7 @@ function Login() {
     password: "",
     otp: "",
   });
-  const [timer, setTimer] = useState(180); // 3 minutes in seconds
+  const [timer, setTimer] = useState(180);
 
   const handleLoginInputChange = (e) => {
     const { name, value } = e.target;
@@ -57,7 +57,6 @@ function Login() {
 
   useEffect(() => {
     if (timer === 0) {
-      // Redirect to the signup page after 3 minutes
       navigate("/signup");
     }
   }, [timer, navigate]);
