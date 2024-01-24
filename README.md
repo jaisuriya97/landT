@@ -44,7 +44,7 @@
 
 ## To Run
 
-1. start MongoDb server in your server folder
+1. start MongoDb server 
 
 2. start express js
 
