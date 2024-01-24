@@ -4,7 +4,7 @@
 ## Greetings 💐
 
 
-## Tools and Versions
+## Stack used
 
 1. Mongodb
 2. React
